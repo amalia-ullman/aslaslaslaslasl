@@ -1,0 +1,118 @@
+:root {--pictureSize: 605px;}
+
+body{
+    color: rgb(174, 0, 255);
+    background-color: orange;
+}
+
+.button{
+    background-color: snow;
+    transition: all 0.5s;
+    width: 92px;
+}
+
+.button:hover{
+    background-color: royalblue;
+    transition: all 0.5s;
+}
+
+h1{
+    text-align: center;
+}
+
+div#inputarea{
+    width: 80vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input{
+    width: 65vw;
+}
+
+div#button2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 190px;
+}
+
+img{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    max-width: var(--pictureSize);
+    max-height: var(--pictureSize);
+    border-radius: 10px;
+    min-width: 70px;
+    min-height: 70px;
+}
+
+.upperclass{
+    max-width: calc(var(--pictureSize) + 100px);
+    max-height: calc(var(--pictureSize) + 100px);
+    min-width: 70px;
+    min-height: 70px;
+}
+
+div#translation{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 97.25vw;
+}
+
+#test{
+    text-align: center;
+}
+
+.characterclass {
+    display: inline;
+    position: relative;
+    right: 75px;
+    font-size: var(--pictureSize);
+}
+
+.slidecontainer {
+    width: 50%;
+    min-width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .slider {
+    --slidercolorval: hsl(180, 100%, 50%);
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: var(--slidercolorval);
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: var(--slidercolorval);
+    cursor: pointer;
+  }
